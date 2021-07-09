@@ -32,7 +32,7 @@
 ### 1. 메인 화면 - 개인정보 입력 양식
 
 <p align='center'>
- <img src='./blackpinkT/images/form 양식.png' width="400px" height="400px">
+ <img src='./blackpinkT/images/form.png' width="400px" height="400px">
 </p>
 
 - 메인 UI에서는 원하는 개인정보를 등록해서 티켓을 등록 할 수 있습니다.
@@ -40,7 +40,7 @@
 ### 1. 메인 화면 - AWS 구현
 
 <p align='center'>
- <img src='./blackpinkT/images/submit.png' width="400px" height="200px">
+ <img src='./blackpinkT/images/post.png' width="400px" height="200px">
 </p>
 
 - API Gateway를 통해서 Lambda함수를 실행 후 DynamoDB에 Form데이터 넣고 SNS에
@@ -49,7 +49,7 @@
 ### 2. 등록 리스트
 
 <p align='center'>
- <img src='./blackpinkT/images/리스트.png' width="700px" height="200px">
+ <img src='./blackpinkT/images/list.png' width="700px" height="200px">
 </p>
 
 - 티켓 등록이 완료된 리스트를 보여줍니다.
@@ -57,7 +57,7 @@
 ### 2. 등록 리스트 - AWS 구현
 
 <p align='center'>
- <img src='./blackpinkT/images/history.png' width="400px" height="200px">
+ <img src='./blackpinkT/images/get.png' width="400px" height="200px">
 </p>
 
 - API Gateway를 통해서 Lambda함수를 실행 후 DynamoDB에 앞서 저장한 Form 데이터를 가져 옵니다.
@@ -65,7 +65,7 @@
 ### 3. Ticket 다운로드
 
 <p align='center'>
- <img src='./blackpinkT/images/티켓.png' width="400px" height="400px">
+ <img src='./blackpinkT/images/ticket.png' width="400px" height="400px">
 </p>
 
 - 프린트 모양의 버튼을 클릭하면 이름, 소속이 적힌 개인 Ticket이 나오면서 PRINT를 누르면 PDF로 Ticket을 다운로드 할 수 있습니다.
@@ -73,7 +73,7 @@
 ### 3. Ticket 다운로드 - AWS Ticket, QRcode 만들기 구현
 
 <p align='center'>
- <img src='./blackpinkT/images/image.png' width="400px" height="200px">
+ <img src='./blackpinkT/images/make.png' width="400px" height="200px">
 </p>
 
 - 앞서 설정한 SNS에서 데이터가 추가 됬으면 자동으로 Make Image Lambda함수가 실행되고 Ticket, QRcode를 만드는 로직
