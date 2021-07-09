@@ -24,7 +24,7 @@
 # AWS Serverless 아키텍쳐
 
 <p align='center'>
-  <img src='./blackpinkT/images/Lambda.PNG'>
+  <img src='./blackpinkT/images/Lambda.png'>
 </p>
 
 # <자세한 기능 설명>
@@ -32,7 +32,6 @@
 ## 1. 메인 화면
 
 <p align='center'>
-  <img src='./images/안드2.PNG'>
 </p>
 
 - 메인 UI에서는 원하는 디퓨저의 상태를 설정 할 수 있습니다.
